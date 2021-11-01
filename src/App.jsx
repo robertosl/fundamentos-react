@@ -3,6 +3,7 @@ import React from "react";
 import Card from "./components/layout/Card";
 import Aleatorio from "./components/basicos/Aleatorio";
 import TabelaProduto from "./components/repeticao/TabelaProdutos";
+import Mega from "./components/mega/Mega";
 
 import "./App.css"
 
@@ -11,6 +12,9 @@ const App = () => (
     <div className="app">
         <h1>Fundamentos em React</h1>
         <div className="cards">
+            <Card titulo="Desafio da Mega">
+                <Mega />
+            </Card>
             <Card titulo="Desafio Repetição" color="#3A9AD9">
                 <TabelaProduto />
             </Card>
